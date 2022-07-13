@@ -32,9 +32,16 @@ code {
 #bottom {
   margin-left: 10%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 #bottom img {
   width: auto;
   height: 20em;
+}
+
+#big-button {
+  background-color: bisque;
+  font-size: 8em;
+  width: 200px;
 }

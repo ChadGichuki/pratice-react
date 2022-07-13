@@ -1,3 +1,9 @@
+// Understanding lists and keys
+
+// Use an array method like .map to loop through an array and return JSX for each element of the array
+
+// It will work but you get a warning sign. You need to assign unique keys.
+
 import React from "react";
 import Task from "./Task"
 

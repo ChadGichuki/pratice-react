@@ -1,3 +1,14 @@
+//Understanding props
+
+// props are objects
+// const props = {
+//  user: "usernName from parent",
+//  slogan: "slogan from parent"
+//}
+
+// destructuring
+// default values
+
 import React from "react";
 
 function Top({
