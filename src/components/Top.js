@@ -1,9 +1,14 @@
 import React from "react";
 
-function Top(){
+function Top({
+    user, 
+    slogan = "Wueh!!"
+}){
     return(
         <div id="top">
-            <p>Hi</p>
+            <h1>TO DO LIST</h1>
+            <p>Welcome {user}.</p>
+            <p>And always remember: {slogan}</p>
         </div>
     )
 }

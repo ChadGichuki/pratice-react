@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#top {
+  background-color: aqua;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  border: solid black 1px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2em;
+}
+
+#middle {
+  line-height: 2em;
+  margin-left: 30%;
+  font-size: 2em;
+}
+
+#bottom {
+  margin-left: 10%;
+  display: inline-block;
+}
+
+#bottom img {
+  width: auto;
+  height: 20em;
+}
