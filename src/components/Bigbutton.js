@@ -17,7 +17,7 @@
 
 // You then pass this function as the callback to your click event. (Click events were handled)
 
-// Now every time that element is clicked (or any other event you are lsitening for happens)
+// Now every time that element is clicked (or any other event you are listening for happens)
 // The handleClick function is invoked, it in turn invokes the setter function, which changes the value of your variable.
 // The beautiful thing about state is that the DOM re-renders automatically. No need for querySelectors.
 

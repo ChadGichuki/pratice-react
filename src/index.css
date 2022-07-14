@@ -29,13 +29,13 @@ code {
   font-size: 2em;
 }
 
-#bottom {
+.bottom {
   margin-left: 10%;
   display: inline-block;
   vertical-align: middle;
 }
 
-#bottom img {
+.bottom img {
   width: auto;
   height: 20em;
 }

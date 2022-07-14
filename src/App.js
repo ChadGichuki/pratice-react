@@ -2,12 +2,12 @@ import React from "react";
 import Top from "./components/Top";
 import Middle from "./components/Middle";
 import Bottom from "./components/Bottom";
-//import Bigbutton from "./components/Bigbutton";
+import Bigbutton from "./components/Bigbutton";
 
 function App() {
   return (
     <div className="App">
-      <Top user="Richie"/>
+      <Top user="Richie" slogan="Wueh!!"/>
       <Middle/>
       <br/>
       <Bottom>
@@ -20,9 +20,9 @@ function App() {
         <p>Something Unique</p>
         <p>Something Unique</p>
       </Bottom>
-      {/*<Bottom>
+      <Bottom>
           <Bigbutton/>
-        </Bottom>*/}
+      </Bottom>
     </div>
   );
 }
