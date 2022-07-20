@@ -11,19 +11,19 @@
 //  slogan: "slogan from parent"
 //  }
 
-import React from "react";
+// import React from "react";
 
-function Top(props){
-    return(
-        <div id="top">
-            <h1>TO DO LIST</h1>
-            <p>Welcome {props.user}.</p>
-            <p>And always remember: {props.slogan}</p>
-        </div>
-    )
-}
+// function Top(props){
+//     return(
+//         <div id="top">
+//             <h1>TO DO LIST</h1>
+//             <p>Welcome {props.user}.</p>
+//             <p>And always remember: {props.slogan}</p>
+//         </div>
+//     )
+// }
 
-export default Top
+// export default Top
 
 
 // We can use destructuring syntax. Eg:
@@ -34,19 +34,19 @@ export default Top
 
 
 
-// import React from "react";
+import React from "react";
 
-// function Top({
-//     user, 
-//     slogan = "Wueh!!"
-// }){
-//     return(
-//         <div id="top">
-//             <h1>TO DO LIST</h1>
-//             <p>Welcome {user}.</p>
-//             <p>And always remember: {slogan}</p>
-//         </div>
-//     )
-// }
+function Top({
+    user, 
+    slogan = "Wueh!!"
+}){
+    return(
+        <div id="top">
+            <h1>TO DO LIST</h1>
+            <p>Welcome {user}.</p>
+            <p>And always remember: {slogan}</p>
+        </div>
+    )
+}
 
-// export default Top
+export default Top

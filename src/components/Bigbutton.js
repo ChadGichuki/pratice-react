@@ -12,7 +12,7 @@
 // The best way to implement this is by defining a new function within your component Eg.function handleClick()
 // Inside this function, you invoke the setter function and update the count variable to the new value.
         // Eg. function handleClick(){
-        //    setCount(count + 1)
+        //    setCount(count + 2)
         //}
 
 // You then pass this function as the callback to your click event. (Click events were handled)
