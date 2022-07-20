@@ -1,14 +1,18 @@
 import React from "react";
 import Top from "./components/Top";
 import Middle from "./components/Middle";
-import Bottom from "./components/Bottom";
-import Bigbutton from "./components/Bigbutton";
+import Navbar from "./components/Nabar";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Top user="Richie" slogan="Wueh!!"/>
-      <Middle/>
+      <Navbar/>
+      <Routes>
+        <Route path="/home" element={<Top user="Richie" slogan="Wueh!!"/>}/>
+        <Route path="/tasks" element={<Middle/>}/>
+      </Routes>
+
     </div>
   );
 }
